@@ -86,6 +86,7 @@ return {
       { "<c-s>", mode = { "c" },           function() require("flash").toggle() end,            desc = "Toggle Flash Search" },
     },
   },
+  'prisma/vim-prisma',
   -------------------------------------COLORS-------------------------------------
   { 'catppuccin/nvim', as = 'catppuccin' },
   { 'rose-pine/neovim', name = 'rose-pine' },
